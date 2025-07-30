@@ -1,0 +1,115 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lunatic Fringe</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #111; color: #f4f4f4; margin: 0; padding: 0; }
+    header { text-align: center; background: #222; padding: 2em; }
+    header img { width: 200px; }
+    nav { background: #333; padding: 1em; text-align: center; }
+    nav a { color: white; margin: 0 1em; text-decoration: none; }
+    section { padding: 2em; }
+    h2 { border-bottom: 1px solid #444; padding-bottom: 0.5em; }
+    form input, form textarea, form button {
+      display: block; width: 100%; max-width: 400px; margin: 1em auto; padding: 0.5em;
+    }
+    form button { background: #f4f4f4; color: #111; border: none; cursor: pointer; }
+    .embed { margin: 1em 0; text-align: center; }
+    footer { text-align: center; padding: 1em; background: #222; color: #999; }
+    .cta { display: inline-block; background: #f4f4f4; color: #111; padding: 1em 2em; text-decoration: none; border-radius: 5px; margin-top: 1em; }
+    .merch-item { margin-bottom: 2em; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Lunatic Fringe Logo" />
+  <h1>Lunatic Fringe</h1>
+  <p>Stripped-down, amped-up classics from the 70s to the 2000s</p>
+  <a href="#book" class="cta">Book Us Now</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#shows">Shows</a>
+  <a href="#media">Media</a>
+  <a href="#music">Music</a>
+  <a href="#book">Contact</a>
+  <a href="#merch">Merch</a>
+  <a href="#fanclub">Fan Club</a>
+</nav>
+
+<section id="about">
+  <h2>About</h2>
+  <p>Lunatic Fringe is an acoustic duo breathing new life into your favorite rock and country hits from the ‘70s through the early 2000s. With rich harmonies, tight rhythms, and a stripped-down style, we bring everything from classic rock ballads to boot-stomping country anthems to life.</p>
+</section>
+
+<section id="shows">
+  <h2>Upcoming Shows</h2>
+  <ul>
+    <li>Aug 2 – The Taproom, Billings, MT – 8:00 PM</li>
+    <li>Aug 10 – Red Barn Brewery, Bozeman, MT – 7:30 PM</li>
+    <li>Aug 15 – Private Event, Helena, MT</li>
+  </ul>
+</section>
+
+<section id="media">
+  <h2>Media</h2>
+  <div class="embed">
+    <iframe width="300" height="169" src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="YouTube video" allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="music">
+  <h2>Listen</h2>
+  <div class="embed">
+    <iframe style="border-radius:12px" src="https://open.spotify.com/embed/track/6acJY0dS5rlrNO4uQI6d7F?utm_source=generator" width="300" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+  </div>
+</section>
+
+<section id="book">
+  <h2>Contact / Book Us</h2>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send</button>
+  </form>
+</section>
+
+<section id="merch">
+  <h2>Merch</h2>
+  <div class="merch-item">
+    <p><strong>Lunatic Fringe Logo Tee – $25</strong></p>
+    <a href="https://www.paypal.com" target="_blank">Buy with PayPal</a>
+  </div>
+  <div class="merch-item">
+    <p><strong>Koozie – $8</strong></p>
+    <a href="https://www.paypal.com" target="_blank">Buy with PayPal</a>
+  </div>
+  <div class="merch-item">
+    <p><strong>Or Pay with Venmo</strong></p>
+    <a href="https://venmo.com/YOURUSERNAME" target="_blank">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Venmo_Logo_2014.svg/320px-Venmo_Logo_2014.svg.png" width="150" alt="Pay with Venmo">
+    </a>
+  </div>
+</section>
+
+<section id="fanclub">
+  <h2>Fan Club</h2>
+  <p>Sign up for gig alerts, unreleased tracks, and exclusive offers.</p>
+  <form name="fanclub" method="POST" data-netlify="true">
+    <input type="email" name="email" placeholder="Your Email" required />
+    <button type="submit">Join the Fringe</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Lunatic Fringe. All rights reserved.
+</footer>
+
+</body>
+</html>
