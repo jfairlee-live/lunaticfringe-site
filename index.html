@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Lunatic Fringe - Acoustic Duo</title>
+  <style>
+    body { font-family: Arial, sans-serif; background-color: #111; color: #f4f4f4; margin: 0; padding: 0; }
+    header, footer { background: #222; padding: 2em; text-align: center; }
+    header img { max-width: 200px; }
+    nav { background: #333; text-align: center; padding: 1em; }
+    nav a { color: #f4f4f4; margin: 0 1em; text-decoration: none; }
+    section { padding: 2em; max-width: 800px; margin: auto; }
+    h2 { border-bottom: 1px solid #444; padding-bottom: 0.5em; }
+    .cta, button { background: #f4f4f4; color: #111; padding: 1em 2em; border: none; border-radius: 5px; cursor: pointer; text-decoration: none; display: inline-block; }
+    input, textarea { width: 100%; padding: 0.8em; margin: 0.5em 0; border: none; border-radius: 5px; }
+    form { margin-top: 1em; }
+    iframe { width: 100%; margin-top: 1em; border: none; }
+    ul { list-style: none; padding-left: 0; }
+    li { margin-bottom: 1em; }
+  </style>
+</head>
+<body>
+
+<header>
+  <img src="logo.png" alt="Lunatic Fringe Logo" />
+  <h1>Lunatic Fringe</h1>
+  <p>Stripped-down, amped-up classics from the ‘70s to the 2000s</p>
+  <a href="#book" class="cta">Book Us Now</a>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#shows">Shows</a>
+  <a href="#media">Media</a>
+  <a href="#music">Music</a>
+  <a href="#book">Book Us</a>
+  <a href="#merch">Merch</a>
+  <a href="#fanclub">Fan Club</a>
+</nav>
+
+<section id="about">
+  <h2>About</h2>
+  <p>Lunatic Fringe is an acoustic duo breathing new life into your favorite rock and country hits from the ‘70s through the early 2000s. With rich harmonies, tight rhythms, and a stripped-down style, we bring everything from classic rock ballads to boot-stomping country anthems to life.</p>
+</section>
+
+<section id="shows">
+  <h2>Upcoming Shows</h2>
+  <ul>
+    <li>Aug 2 – The Taproom, Billings, MT – 8:00 PM</li>
+    <li>Aug 10 – Red Barn Brewery, Bozeman, MT – 7:30 PM</li>
+    <li>Aug 15 – Private Event, Helena, MT</li>
+  </ul>
+</section>
+
+<section id="media">
+  <h2>Media</h2>
+  <p>Check out some live performances:</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/ysz5S6PUM-U" allowfullscreen></iframe>
+</section>
+
+<section id="music">
+  <h2>Music</h2>
+  <p>Stream our demo sessions:</p>
+  <iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/37i9dQZF1DX5IDTimEWoTd" width="100%" height="152" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+</section>
+
+<section id="book">
+  <h2>Book Us</h2>
+  <p>Want Lunatic Fringe at your venue, event, or wedding? Use the form below or email us at <a href="mailto:lunaticfringemusic@gmail.com">lunaticfringemusic@gmail.com</a></p>
+  <form name="contact" method="POST" data-netlify="true">
+    <input type="text" name="name" placeholder="Your Name" required />
+    <input type="email" name="email" placeholder="Your Email" required />
+    <textarea name="message" placeholder="Tell us about your event..." rows="5" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<section id="merch">
+  <h2>Merch</h2>
+  <ul>
+    <li>🎸 Logo Tees – $25<br><a class="cta" href="https://paypal.me/lunaticfringe">Buy with PayPal</a></li>
+    <li>🎶 Guitar Pick Keychains – $5<br><a class="cta" href="https://venmo.com/lunaticfringe">Buy with Venmo</a></li>
+    <li>🍻 Koozies – $8<br><a class="cta" href="https://paypal.me/lunaticfringe">Buy with PayPal</a></li>
+    <li>☕ “Name That Tune” Mug – $15<br><a class="cta" href="https://venmo.com/lunaticfringe">Buy with Venmo</a></li>
+  </ul>
+</section>
+
+<section id="fanclub">
+  <h2>Fan Club</h2>
+  <p>Join our mailing list and get gig alerts, early merch access, and unreleased tracks:</p>
+  <form name="fanclub" method="POST" data-netlify="true">
+    <input type="email" name="email" placeholder="Your Email" required />
+    <button type="submit">Join the Fringe</button>
+  </form>
+</section>
+
+<footer>
+  &copy; 2025 Lunatic Fringe. All rights reserved.
+</footer>
+
+</body>
+</html>
